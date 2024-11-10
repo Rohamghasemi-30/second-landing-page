@@ -1,0 +1,64 @@
+@font-face{
+    src: url(../../Fonts/Roboto-Regular.ttf);
+    font-family: Roboto-Regular;
+}
+
+.container{
+    width: 100%;
+    padding: 25px;
+    background-color: rgb(2, 223, 223);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto-Regular;
+    color: #fff;
+}
+
+.container .part-left{
+    width: 70%;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+    position: relative;
+    bottom: 200px;
+}
+
+.text-orenge{
+    color: #F48C06;
+}
+
+.container .part-right{
+    width: 800px;
+}
+
+.container .part-right img{
+    width: 911px;
+    padding: 120px;
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
+
+.join{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join img{
+    width: 70%;
+}
+
+
+.join button{
+    width: 160px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 60px;
+}

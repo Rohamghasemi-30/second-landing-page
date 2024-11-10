@@ -1,0 +1,47 @@
+@font-face{
+    src: url(../../Fonts/Roboto-Regular.ttf);
+    font-family: Roboto-Regular;
+}
+
+nav{
+    background-color: rgb(2, 223, 223);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto-Regular;
+}
+
+.login{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login button{
+    width: 160px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 60px;
+}
+
+.login button:nth-child(2){
+    background-color: #ffffff6c;
+    color: #fff;
+}

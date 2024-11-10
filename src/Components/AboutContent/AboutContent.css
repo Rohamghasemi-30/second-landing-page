@@ -1,0 +1,10 @@
+@font-face{
+    src: url(../../Fonts/Roboto-Regular.ttf);
+    font-family: Roboto-Regular;
+}
+
+.containerabout{
+    width: 100%;
+    padding: 25px;
+    font-family: Roboto-Regular;
+}

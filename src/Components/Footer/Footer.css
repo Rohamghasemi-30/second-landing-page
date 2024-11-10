@@ -1,0 +1,66 @@
+@font-face{
+    src: url(../../Fonts/Roboto-Regular.ttf);
+    font-family: Roboto-Regular;
+}
+
+footer{
+    width: 100%;
+    background-color: #252641;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-footer{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-footer img{
+    width: 120px;
+}
+
+.logo-footer h3{
+    color: #fff;
+    font-family: Roboto-Regular;
+    width: 120px;
+}
+
+.text-footer{
+    font-family: Roboto-Regular;
+    color: #B2B3CF;
+}
+
+form{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form input{
+    width: 300px;
+    border: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+form button{
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: #49BBBD;
+    color: #fff;
+}
+
+.date{
+    color: #B2B3CF;
+    font-family: Roboto-Regular;
+}
